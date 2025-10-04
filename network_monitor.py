@@ -23,8 +23,8 @@ class NetworkMonitor:
         self.device_history = []
         self.monitoring = False
         self.scan_interval = 30
-        self.network_range = "192.168.100.0/24"  # Force your correct network as default
-        self.admin_email = "draguluvincent@gmail.com"
+        self.network_range = "192.168.140.0/24"  # Force your correct network as default
+        self.admin_email = "d@gmail.com"
         self.email_alerts = False
         
     def ping_host(self, ip):
